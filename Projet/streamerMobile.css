@@ -70,6 +70,34 @@
 
     }
 
+    #onstreams img{
+        width: 15vw;
+        border-radius: 50%;
+        border-color: red;
+        border-style: solid;
+    }
+    
+    #offline img{
+        width: 15vw;
+        border-radius: 50%;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    #onstreams{
+        padding: 3% 10%;        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    #offline{
+        padding: 3% 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
     .equipe{
         color: #4BCBD4;
         font-family: QuickSandB;

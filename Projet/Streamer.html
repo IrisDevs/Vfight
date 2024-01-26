@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="streamerMobile.css">
     <link rel="stylesheet" href="streamerOrdi.css">
     <link rel="stylesheet" href="font.css">
-    <title>Association</title>
+    <title>Streamers</title>
 </head>
 <body>
     <header>
@@ -27,10 +27,14 @@
     <main>
         <section class="streamers">
             <h2>Les Streamers</h2>
-            <div id="list">
-                
-            </div>
-
+            <div class="onstreams">
+                <h3>On Streams</h">
+                <div id="onstreams"></div>
+             </div>
+            <div class="offline">
+                <h3>Les participants</h3>
+                <div id="offline"></div>      
+             </div>
         </section>
         <h2>Les Equipes</h2>
         <section class="equipe">
@@ -82,4 +86,5 @@
     </main>
     <footer></footer>
 </body>
+<script src="twitch.js"></script>
 </html>

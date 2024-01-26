@@ -73,6 +73,34 @@
         text-align: center;
 
     }
+
+    #onstreams img{
+        width: 12vw;
+        border-radius: 50%;
+        border-color: red;
+        border-style: solid;
+    }
+    
+    #offline img{
+        width: 12vw;
+        border-radius: 50%;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    #onstreams{
+        padding: 3% 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    
+    #offline{
+        padding: 3% 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     
     .equipe{
         color: #4BCBD4;
