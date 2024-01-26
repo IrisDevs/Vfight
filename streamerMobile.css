@@ -71,14 +71,14 @@
     }
 
     #onstreams img{
-        width: 15vw;
+        width: 12vw;
         border-radius: 50%;
         border-color: red;
         border-style: solid;
     }
     
     #offline img{
-        width: 15vw;
+        width: 12vw;
         border-radius: 50%;
         border-color: black;
         border-style: solid;
@@ -88,14 +88,14 @@
         padding: 3% 10%;        
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
     }
     
     #offline{
         padding: 3% 10%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
     }
 
     .equipe{
