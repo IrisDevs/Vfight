@@ -1,0 +1,188 @@
+@media only screen and (max-width:991px) {
+
+    body{
+        font-family: QuickSand;
+        margin: 0;
+        padding: 0;
+        caret-color: transparent;
+    }
+
+  
+    header{
+        padding-top: 2%;
+        width: 100%;
+        background-size: cover;
+        background-color: #4BCBD4;
+    }
+
+    img[src="img/logoP.png"]{
+        display: none;
+    }
+
+    header img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    h1{
+        font-size: 4cqw;
+    }
+
+    h2{
+        font-family: QuickSandB;
+        color: #4BCBD4;
+        text-align: center;
+        font-size: 5cqw;
+    }
+
+    .nav p{
+        margin: 0 2%;
+        font-size: 5cqw;
+        color: #1F9AA4;
+    }
+
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav{
+        font-family: QuickSandB;
+        margin-top: -10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;        
+    }
+
+    .description{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        background-color: #001319;
+        color: white;
+        font-size: 2cqw;     
+        text-align: center;      
+    }
+
+    .description div p{
+        margin: 5% 10%;
+
+    }
+
+
+    .mascottes img{
+        margin-top: -5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+
+    #ButtonAsso{
+        border: none;
+        background-color: #4BCBD4;
+        color: white;
+        font-family: QuickSandB;
+    }
+
+    #image1 img{
+        width: 101vw;
+        height: 40vh;
+    }
+    
+    #image2 img{
+        width: 101vw;
+        height: 40vh;
+    }
+    
+    #image3 img{
+        width: 104vw;
+        height: 40vh;
+    }
+    
+    #flecheG{
+        position: relative;
+        left: 5%;
+        z-index: 1;
+        visibility: hidden;
+    }
+    
+    #flecheG img{
+        max-width: 15vw;
+    }
+    
+    #flecheD{
+        position: relative;
+        right: 68%;
+        z-index: 1;
+    }
+    
+    #flecheD img{
+        max-width: 15vw;
+    }
+    
+    #Carroussel{
+        margin-top: -2%;
+        margin-left: -15%;
+        padding-bottom: 4%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        width: 351%;
+    }
+
+    #photos{
+        margin-top: -2%;
+        transition: all 3s;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 330%;
+    }
+
+    .diapo{
+        overflow: hidden;
+    }
+
+    .contact{
+        padding-top: 4%;
+        margin-top: -10%;
+        background-color: #001319;
+    }
+
+    .boite{
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        height: 5vh;
+        width: 70vw;
+        margin-bottom: 5%;
+        border-radius: 20px;
+
+    }
+
+    .reseaux{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 5%;
+        
+    }
+
+    .reseaux img{
+        max-width: 10vw;
+        max-height: 10vh;
+    
+    }
+
+    footer{
+        height: 10vh;
+        background-color: #4BCBD4;
+    }
+
+
+
+
+}

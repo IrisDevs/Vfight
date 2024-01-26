@@ -1,0 +1,23 @@
+#onstreams img{
+    width: 15vw;
+    border-radius: 50%;
+    border-color: red;
+    border-style: solid;
+}
+
+#offline img{
+    width: 15vw;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+}
+
+#onstreams{
+    display: flex;
+    justify-content: space-around;
+}
+
+#offline{
+    display: flex;
+    justify-content: space-around;
+}
