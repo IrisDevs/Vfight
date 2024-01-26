@@ -91,7 +91,7 @@
     .descriptionP{
         display: flex;
         flex-wrap: nowrap;
-        text-align: justify;   
+        text-align: center;   
     }
 
     .description{

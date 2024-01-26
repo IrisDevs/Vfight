@@ -83,6 +83,14 @@
         border-color: black;
         border-style: solid;
     }
+
+    #offline a{
+        margin: 2% 2%;
+    }
+
+    #onstreams a{  
+        margin: 2% 2%;
+    }
     
     #onstreams{
         padding: 3% 10%;        
