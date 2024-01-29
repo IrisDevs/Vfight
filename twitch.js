@@ -57,12 +57,12 @@ function getTwitchAuthorization() {
             let hdThumbnail = thumbnail
                 .replace("{width}", "1280")
                 .replace("{height}", "720");
-                document.getElementById("onstreams").innerHTML += "<a href='https://www.twitch.tv/" + user_login + "'><img src='img/" + user_id + ".jpg'></a>";    
+                document.getElementById("onstreams").innerHTML += "<a target='blank' href='https://www.twitch.tv/" + user_login + "'><img src='img/" + user_id + ".jpg'></a>";    
             });
         
 
       
-           document.getElementById("offline").innerHTML += "<a href='https://www.twitch.tv/" + pseudo[x] + "'><img src='img/" + login_id[y] + ".jpg'></a>";
+           document.getElementById("offline").innerHTML += "<a target='blank' href='https://www.twitch.tv/" + pseudo[x] + "'><img src='img/" + login_id[y] + ".jpg'></a>";
            console.log(JSON.stringify(data));   
            x ++;    
            y ++;

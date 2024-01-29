@@ -1,5 +1,5 @@
-@media only screen and (max-width:991px) {
-
+@media only screen and (max-width:992px) {
+   
     body{
         font-family: QuickSand;
         margin: 0;
@@ -7,62 +7,93 @@
         caret-color: transparent;
     }
 
-  
+    img[src="img/logo.png"]{
+        display: none;
+    }
+    
+
     header{
-        padding-top: 2%;
-        width: 100%;
+        margin-bottom: -10%;
         background-size: cover;
         background-color: #4BCBD4;
+        overflow: hidden;
+        position: sticky;
+        top: 0%;
+        background-color:  rgba(75, 203, 212, 0.4);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
     }
 
-    img[src="img/logoP.png"]{
-        display: none;
+    .bandeau{
+
+        margin-top: 0.5%;
+        margin-left: 5%;
+        display: inline-flex;
     }
 
     header img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+        margin-top: 1vh;
+        width: 7vw;
     }
 
     h1{
-        font-size: 4cqw;
+        font-size: 2.2cqw;
+    }
+
+    h1:hover{
+        color: #1F9AA4;
+                
     }
 
     h2{
         font-family: QuickSandB;
         color: #4BCBD4;
         text-align: center;
+        font-size: 2cqw;
     }
 
     .nav p{
         margin: 0 2%;
-        font-size: 5cqw;
+        font-size: 2cqw;
         color: #1F9AA4;
     }
-
 
     a{
         text-decoration: none;
         color: white;
     }
 
+ 
     .nav{
         font-family: QuickSandB;
-        margin-top: -10%;
-        display: flex;
+        margin-left: 27%;
+        display: inline-flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;        
+        justify-content: center;   
+             
     }
 
-    .cache{
-        display: none;
+    .reseaux{
+        margin-left: 12%;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .reseaux a{
+        margin-left: -5%;        
+    }
+
+    .reseaux a img{
+        max-width: fit-content;
+        max-height: 2%;
     }
 
     .description{
-        padding-top: 2%;
+        margin-top: -40%;
+        padding-top: 42%;
         padding-bottom: 2%;
         background-color: #001319;
         color: white;
