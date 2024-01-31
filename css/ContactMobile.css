@@ -10,6 +10,8 @@
     img[src="img/logo.png"]{
         display: none;
     }
+
+    /* Header sticky composer du logo, barre de nav et logo de nos réseaux*/
     
 
     header{
@@ -91,6 +93,8 @@
         max-height: 2%;
     }
 
+    /*Section description de l'évènement */
+
     .description{
         padding-top: 2%;
         padding-bottom: 2%;
@@ -121,6 +125,8 @@
         color: white;
         font-family: QuickSandB;
     }
+
+    /* Section FAQ avec réponse déroulante */
 
     .FAQ{
         background-color: white;
@@ -226,6 +232,8 @@
     .diapo{
         overflow: hidden;
     }
+
+    /* Section contact */
 
     .contact{
         padding-bottom: 1%;

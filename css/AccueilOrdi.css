@@ -7,6 +7,8 @@
         caret-color: transparent;
     }
 
+    /* Header sticky composer du logo, barre de nav et logo de nos réseaux*/
+
     img[src="img/logoP.png"]{
         display: none;
     }
@@ -103,6 +105,8 @@
         height: fit-content;
     }
 
+    /* Section description */
+
     .description h2{
         text-align: center;
         margin-left: -3%;
@@ -150,6 +154,8 @@
         width: 60%;
     }
 
+    /* Section recap de l'event + icone animé */
+
     .recap{
         padding-top: 5%;
         background-color: #4BCBD4;
@@ -179,6 +185,8 @@
         margin-top: auto;
         margin-bottom: auto;
     }
+
+    /* Section de présentation rapide des equipes avec leurs mascottes */
     
     .equipe{
         color: #4BCBD4;
@@ -284,6 +292,8 @@
         margin-top: 10%;
         width: 55%;
     }
+
+    /* Section présentation du cast */
 
     .cast{
         overflow:hidden;

@@ -109,6 +109,41 @@
         margin-left: -3%;
     }
 
+    .boutonFlex{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    #onstream{
+        border: none;        
+        color: white;
+        font-family: QuickSandB;
+        margin-top: 5%;
+        background-color: #4BCBD4;
+        border-radius: 20px;
+        padding: 0 2%;
+    }
+
+    #onstream:hover{
+        background-color: #1F9AA4;
+    }
+
+
+    #caststream{
+        border: none;
+        color: white;
+        font-family: QuickSandB;
+        margin-top: 5%;
+        background-color: #4BCBD4;
+        border-radius: 20px;
+        padding: 0 5%;
+    }
+
+    #caststream:hover{
+        background-color: #1F9AA4;
+    }
+
     .cache{
         display: none;
     }
@@ -133,17 +168,17 @@
 
     #image1 img{
         width: 101vw;
-        height: 60vh;
+        height: 80vh;
     }
     
     #image2 img{
         width: 101vw;
-        height: 60vh;
+        height: 80vh;
     }
     
     #image3 img{
         width: 104vw;
-        height: 60vh;
+        height: 80vh;
     }
     
     #flecheG{
@@ -190,43 +225,9 @@
         margin-right: auto;
         width: 80%;
         overflow: hidden;
-        padding-bottom: 10%;
     }
 
-    .boutonFlex{
-        display: flex;
-        justify-content: space-around;
-
-    }
-
-    #onstream{
-        border: none;        
-        color: white;
-        font-family: QuickSandB;
-        margin-top: 5%;
-        background-color: #4BCBD4;
-        border-radius: 20px;
-        padding: 0 2%;
-    }
-
-    #onstream:hover{
-        background-color: #1F9AA4;
-    }
-
-
-    #caststream{
-        border: none;
-        color: white;
-        font-family: QuickSandB;
-        margin-top: 5%;
-        background-color: #4BCBD4;
-        border-radius: 20px;
-        padding: 0 5%;
-    }
-
-    #caststream:hover{
-        background-color: #1F9AA4;
-    }
+    
 
 
    .Planning{
@@ -238,40 +239,6 @@
         text-align: center;  
 
    }
-
-    .diapo{
-        overflow: hidden;
-    }
-
-    .contact{
-        padding-top: 4%;
-        margin-top: -10%;
-        background-color: #001319;
-    }
-
-    .boite{
-        margin-left: auto;
-        margin-right: auto;
-        background-color: white;
-        height: 5vh;
-        width: 70vw;
-        margin-bottom: 5%;
-        border-radius: 20px;
-
-    }
-
-    .reseau{
-        margin-top: 5%;
-        display: flex;
-        justify-content: space-around;
-        padding-bottom: 5%;
-        
-    }
-
-    .reseau img{
-        max-width: 10vw;
-        max-height: 10vh;
-    
-    }
+   
 
 }

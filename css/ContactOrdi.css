@@ -11,6 +11,7 @@
         display: none;
     }
     
+    /* Header sticky composer du logo, barre de nav et logo de nos réseaux*/
 
     header{
         margin-bottom: -10%;
@@ -103,6 +104,8 @@
         height: fit-content;
     }
 
+    /*Section description de l'évènement */
+
 
     .description h2{
         text-align: center;
@@ -163,6 +166,8 @@
         color: white;
         font-family: QuickSandB;
     }   
+
+    /* Section FAQ avec réponse déroulante */
     
     .FAQ{
         background-color: white;
@@ -269,6 +274,8 @@
         font-size: 2rem;
         display: none;   
     }
+
+    /* Section contact */
     .contact{
         padding-top: 1%;
         margin-top: -10%;

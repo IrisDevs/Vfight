@@ -7,6 +7,8 @@
         caret-color: transparent;
     }
 
+    /* Header sticky composer du logo, barre de nav et logo de nos réseaux*/
+
     img[src="img/logo.png"]{
         display: none;
     }
@@ -91,6 +93,8 @@
         max-height: 2%;
     }
 
+    /* Section description de l'association */
+
     .description{
         margin-top: -35%;
         padding-top: 38%;
@@ -122,6 +126,8 @@
         color: white;
         font-family: QuickSandB;
     }
+
+    /* Section des photo de l'association en mode carroussel */
 
     #image1 img{
         width: 101vw;
@@ -180,6 +186,8 @@
     .diapo{
         overflow: hidden;
     }
+
+    /* Section contact */
 
     .contact{
         padding-top: 6%;

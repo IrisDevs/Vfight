@@ -210,36 +210,4 @@
         overflow: hidden;
     }
 
-    .contact{
-        padding-top: 4%;
-        margin-top: -10%;
-        background-color: #001319;
-    }
-
-    .boite{
-        margin-left: auto;
-        margin-right: auto;
-        background-color: white;
-        height: 5vh;
-        width: 70vw;
-        margin-bottom: 5%;
-        border-radius: 20px;
-
-    }
-
-    .reseau{
-        margin-top: 5%;
-        display: flex;
-        justify-content: space-around;
-        padding-bottom: 5%;
-        
-    }
-
-    .reseau img{
-        max-width: 10vw;
-        max-height: 10vh;
-    
-    }
-
-
 }
