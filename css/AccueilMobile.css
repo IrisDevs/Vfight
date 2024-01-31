@@ -50,7 +50,7 @@
         font-family: QuickSandB;
         color: #4BCBD4;
         text-align: center;
-        font-size: 2cqw;
+        font-size: 5cqw;
     }
 
     .nav p{
@@ -142,6 +142,11 @@
     .recap p{
         margin-top: auto;
         margin-bottom: auto;
+    }
+
+    .recap img{
+        margin-top: 5%;
+        max-width: 12vw;
     }
 
     .equipe{
@@ -291,13 +296,6 @@
         margin-left: 15%;
         margin-top: 5%;
     }
-
-    footer{
-        background-color: #4BCBD4;
-        height: 10vh;
-    }
-
-
     
     
 }
