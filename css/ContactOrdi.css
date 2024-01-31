@@ -7,33 +7,42 @@
         caret-color: transparent;
     }
 
+    img[src="img/logoP.png"]{
+        display: none;
+    }
+    
+
     header{
-        padding-top: 2%;
-        padding-bottom: 3%;
-        width: 100%;
+        margin-bottom: -10%;
         background-size: cover;
         background-color: #4BCBD4;
-        height: 7vh;
         overflow: hidden;
+        position: sticky;
+        top: 0%;
+        background-color:  rgba(75, 203, 212, 0.4);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
     }
 
     .bandeau{
+
+        margin-top: 0.5%;
         margin-left: 5%;
         display: inline-flex;
     }
 
-    img[src="img/logo.png"]{
-        display: none;
-    }
-
     header img{
-        margin-top: -20%;
-        display: block;
-        width: 8vw;
+        margin-top: 1vh;
+        width: 10vw;
     }
 
     h1{
         font-size: 2cqw;
+    }
+
+    h1:hover{
+        color: #1F9AA4;
+                
     }
 
     h2{
@@ -45,7 +54,7 @@
 
     .nav p{
         margin: 0 2%;
-        font-size: 2cqw;
+        font-size: 1cqw;
         color: #1F9AA4;
     }
 
@@ -54,16 +63,46 @@
         color: white;
     }
 
+ 
     .nav{
         font-family: QuickSandB;
-        margin-top: -2%;
-        margin-left: 45%;
-        display: flex;
+        margin-left:30%;
+        display: inline-flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;   
              
     }
+
+    .reseaux{
+        margin-left: 30%;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .reseaux a{
+        width: 100%;
+        height: 50%;
+        margin-right: 15%;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: white;          
+    }
+
+    .reseaux a:hover{
+        background-color: #4BCBD4;
+    }
+
+    .reseaux a img{
+        z-index: 1;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 2.5vw;
+        height: fit-content;
+    }
+
 
     .description h2{
         text-align: center;
@@ -95,7 +134,7 @@
     }
 
     .description{
-        padding-top: 2%;
+        padding-top: 12%;
         padding-bottom: 2%;
         background-color: #001319;
         color: white;  
@@ -110,6 +149,10 @@
 
     .gauche{
         width: 60%;
+    }
+
+    #ButtonAsso:hover{
+            background-color: #1F9AA4;
     }
 
     #ButtonAsso{
@@ -176,6 +219,11 @@
         text-align: center;
         display: none;
     }
+
+    .Questionh2{
+        text-align: left;
+        margin-left: 7%;
+    }
     
     .Question{
         height: 5vh;
@@ -226,6 +274,11 @@
         background-color: #001319;
     }
 
+    .contact h2{
+        text-align: right;
+        margin-right: 8%;
+    }
+
     .boite{
         margin-left: auto;
         margin-right: auto;
@@ -237,7 +290,7 @@
 
     }
 
-    .reseaux{
+    .reseau{
         margin-top: 5%;
         display: flex;
         justify-content: space-around;
@@ -245,17 +298,11 @@
         
     }
 
-    .reseaux img{
+    .reseau img{
         max-width: 10vw;
         max-height: 10vh;
     
     }
 
-    footer{
-        height: 10vh;
-        background-color: #4BCBD4;
-    }
-
-
-
+ 
 }

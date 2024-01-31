@@ -130,7 +130,7 @@
 
     .description{
         margin-top: -35%;
-        padding-top: 34%;
+        padding-top: 38%;
         padding-bottom: 2%;
         background-color: #001319;
         color: white;  
@@ -153,7 +153,13 @@
         background-color: #4BCBD4;
         color: white;
         font-family: QuickSandB;
-    }    
+    } 
+    
+    #ButtonAsso:hover{
+        background-color: #1F9AA4;
+    } 
+
+    
 
     #image1 img{
         width: 101vw;
@@ -216,6 +222,11 @@
         padding-top: 7%;
         margin-top: -10%;
         background-color: #001319;
+    }
+
+    .contact h2{
+        text-align: right;
+        margin-right: 5%;
     }
 
     .boite{

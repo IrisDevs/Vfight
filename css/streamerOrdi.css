@@ -7,33 +7,43 @@
         caret-color: transparent;
     }
 
+    img[src="img/logoP.png"]{
+        display: none;
+    }
+    
+
     header{
-        padding-top: 2%;
-        padding-bottom: 3%;
-        width: 100%;
+        z-index: 2;
+        margin-bottom: -10%;
         background-size: cover;
         background-color: #4BCBD4;
-        height: 7vh;
         overflow: hidden;
+        position: sticky;
+        top: 0%;
+        background-color:  rgba(75, 203, 212, 0.4);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
     }
 
     .bandeau{
+
+        margin-top: 0.5%;
         margin-left: 5%;
         display: inline-flex;
     }
 
     header img{
-        margin-top: -20%;
-        display: block;
-        width: 8vw;
-    }
-
-    img[src="img/logo.png"]{
-        display: none;
+        margin-top: 1vh;
+        width: 10vw;
     }
 
     h1{
         font-size: 2cqw;
+    }
+
+    h1:hover{
+        color: #1F9AA4;
+                
     }
 
     h2{
@@ -45,7 +55,7 @@
 
     .nav p{
         margin: 0 2%;
-        font-size: 2cqw;
+        font-size: 1cqw;
         color: #1F9AA4;
     }
 
@@ -54,19 +64,48 @@
         color: white;
     }
 
+ 
     .nav{
         font-family: QuickSandB;
-        margin-top: -2%;
-        margin-left: 45%;
-        display: flex;
+        margin-left:30%;
+        display: inline-flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;   
              
     }
 
+    .reseaux{
+        margin-left: 30%;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .reseaux a{
+        width: 100%;
+        height: 50%;
+        margin-right: 15%;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: white;          
+    }
+
+    .reseaux a:hover{
+        background-color: #4BCBD4;
+    }
+
+    .reseaux a img{
+        z-index: 1;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 2.5vw;
+        height: fit-content;
+    }
+
     .streamers{
-        padding-top: 2%;
+        padding-top: 12%;
         background-color: #001319;
         color: lightblue;
         font-family: QuickSandB;
@@ -136,8 +175,17 @@
         margin-left: 15%;
     }
 
+    .boite:hover{
+        background-color: #1F9AA4;
+    }
+
     #equipe{
         width: 50%;
+    }
+
+    .h2equip{
+        text-align: left;
+        margin-left: 2%;
     }
 
 
@@ -247,6 +295,15 @@
 
     }
 
+    .cast h2{
+        text-align: right;
+        margin-right: 2%;
+    }
+
+    #boutton:hover{
+        background-color: #1F9AA4;
+    }
+
     #boutton{
         border-radius: 20px;
         display: flex;
@@ -260,9 +317,5 @@
         margin-top: 5%;
     }
 
-    footer{
-        background-color: #4BCBD4;
-        height: 10vh;
-    }
-    
+
 }
