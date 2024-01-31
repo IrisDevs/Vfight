@@ -158,6 +158,7 @@
     #ButtonAsso{
         width: 35%;
         border: none;
+        border-radius: 20px;
         background-color: #4BCBD4;
         color: white;
         font-family: QuickSandB;

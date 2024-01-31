@@ -115,6 +115,8 @@
     }
 
     #ButtonAsso{
+        border-radius: 20px;
+        padding: 2% 2%;
         border: none;
         background-color: #4BCBD4;
         color: white;
@@ -180,7 +182,7 @@
     }
 
     .contact{
-        padding-top: 4%;
+        padding-top: 6%;
         margin-top: -10%;
         background-color: #001319;
     }

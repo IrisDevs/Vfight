@@ -174,7 +174,6 @@
         height: 20%;
         margin-left: 15%;
     }
-
     .boite:hover{
         background-color: #1F9AA4;
     }
@@ -312,7 +311,7 @@
         background-color: #4BCBD4;
         color: white;
         width: 70%;
-        height: 20%;
+        height: 10%;
         margin-left: 15%;
         margin-top: 5%;
     }

@@ -182,8 +182,7 @@
         font-family: QuickSandB;
         margin-top: 5%;
         background-color: #4BCBD4;
-        height: 8vh;
-        width: 30%;
+        padding: 0 2%;
         border-radius: 20px;
     }
 
@@ -193,8 +192,7 @@
         font-family: QuickSandB;
         margin-top: 5%;
         background-color: #4BCBD4;
-        height: 8vh;
-        width: 30%;
+        padding: 0 6%;
         border-radius: 20px;
     }
 
