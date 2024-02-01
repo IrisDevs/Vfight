@@ -112,6 +112,15 @@
 
     #streamers{
         margin-top: 3%;
-        margin-left: 6%
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+    #container{
+        height: 50vh;
+        width: 100vw;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
     }
 }
