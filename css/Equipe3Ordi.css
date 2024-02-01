@@ -1,0 +1,130 @@
+@media only screen and (min-width:992px) {
+
+    body{
+        font-family: QuickSand;
+        margin: 0;
+        padding: 0;
+        caret-color: transparent;
+        background-color: #001319;
+    }
+
+    img[src="img/logoP.png"]{
+        display: none;
+    }
+
+    main{
+        padding-top: 10%;
+    }
+    
+    /* Header sticky composer du logo, barre de nav et logo de nos réseaux*/
+
+    header{
+        margin-bottom: -10%;
+        background-size: cover;
+        background-color: #4BCBD4;
+        overflow: hidden;
+        position: sticky;
+        top: 0%;
+        background-color:  rgba(75, 203, 212, 0.4);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+    }
+
+    .bandeau{
+
+        margin-top: 0.5%;
+        margin-left: 5%;
+        display: inline-flex;
+    }
+
+    header img{
+        margin-top: 1vh;
+        width: 10vw;
+    }
+
+    h1{
+        font-size: 2cqw;
+    }
+
+    h1:hover{
+        color: #1F9AA4;
+                
+    }
+
+    h2{
+        font-family: QuickSandB;
+        color: #4BCBD4;
+        text-align: center;
+        font-size: 2cqw;
+    }
+
+    .nav p{
+        margin: 0 2%;
+        font-size: 1cqw;
+        color: #1F9AA4;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+ 
+    .nav{
+        font-family: QuickSandB;
+        margin-left:30%;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;   
+             
+    }
+
+    .reseaux{
+        margin-left: 30%;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .reseaux a{
+        width: 100%;
+        height: 50%;
+        margin-right: 15%;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: white;          
+    }
+
+    .reseaux a:hover{
+        background-color: #4BCBD4;
+    }
+
+    .reseaux a img{
+        z-index: 1;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 2.5vw;
+        height: fit-content;
+    }
+
+    .description h2{
+        text-align: center;
+        margin-left: -3%;
+    }
+
+    #streamers{
+        margin-top: 3%;
+        margin-right: 15%;
+        margin-left: 20%;
+    }
+
+    #container{
+        height: 100vh;
+        width: 100vw;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+    }
+}
