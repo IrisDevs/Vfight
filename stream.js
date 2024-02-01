@@ -5,6 +5,9 @@ x=0;
 
 login_id.forEach((id) => {
     document.getElementById("streamers").innerHTML += "<img id='" + pseudo[x] + "' src='img/" + id + ".jpg'>";
+    document.getElementById(pseudo[x]).style.width = "17vw";
+    document.getElementById(pseudo[x]).style.borderRadius = "50%";
+    document.getElementById(pseudo[x]).style.marginTop = "3%";
     x++;
 
 });
