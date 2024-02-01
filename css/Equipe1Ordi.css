@@ -5,16 +5,18 @@
         margin: 0;
         padding: 0;
         caret-color: transparent;
-        background-color: #001319;
     }
 
-
+    img[src="img/logoP.png"]{
+        display: none;
+    }
+    
+    /* Header sticky composer du logo, barre de nav et logo de nos réseaux*/
 
     header{
-        width: 100%;
+        margin-bottom: -10%;
         background-size: cover;
         background-color: #4BCBD4;
-        height: 9vh;
         overflow: hidden;
         position: sticky;
         top: 0%;
@@ -24,22 +26,24 @@
     }
 
     .bandeau{
+
+        margin-top: 0.5%;
         margin-left: 5%;
         display: inline-flex;
     }
 
     header img{
-        margin-top: 3%;
-        display: block;
-        width: 4vw;
-    }
-
-    img[src="img/logo.png"]{
-        display: none;
+        margin-top: 1vh;
+        width: 10vw;
     }
 
     h1{
-        font-size: 1cqw;
+        font-size: 2cqw;
+    }
+
+    h1:hover{
+        color: #1F9AA4;
+                
     }
 
     h2{
@@ -60,15 +64,44 @@
         color: white;
     }
 
+ 
     .nav{
         font-family: QuickSandB;
-        margin-top: -2%;
-        margin-left: 135%;
-        display: flex;
+        margin-left:30%;
+        display: inline-flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;   
              
+    }
+
+    .reseaux{
+        margin-left: 30%;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .reseaux a{
+        width: 100%;
+        height: 50%;
+        margin-right: 15%;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: white;          
+    }
+
+    .reseaux a:hover{
+        background-color: #4BCBD4;
+    }
+
+    .reseaux a img{
+        z-index: 1;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 2.5vw;
+        height: fit-content;
     }
 
     .description h2{
