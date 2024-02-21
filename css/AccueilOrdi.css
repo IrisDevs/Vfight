@@ -161,7 +161,7 @@
         padding-top: 5%;
         background-color: #4BCBD4;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: space-around;
         color: #4BCBD4;
         font-family: QuicksandB;
@@ -171,10 +171,11 @@
     }
 
     .recap div{
+        padding: 2% 0;
         margin-bottom: 5%;
         border-radius: 20px;
         background-color: white;
-        width: 35%;
+        width: 20%;
         height: 15vh;
         display: flex;
         flex-direction: column;
