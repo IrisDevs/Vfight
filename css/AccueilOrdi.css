@@ -112,10 +112,6 @@
         margin-left: -3%;
     }
 
-    .cache{
-        display: none;
-    }
-
     #description{
         padding-top: 9vh;
         margin-top: -5%;
@@ -128,12 +124,17 @@
     .descriptionP p{
         margin-right: 8%;
         font-size: 1.2cqw;
+        font-weight: bolder;
     }
 
     .descriptionP{
         display: flex;
         flex-wrap: nowrap;
         text-align: center;   
+    }
+
+    .descriptionP span{
+        color: #4BCBD4; 
     }
 
     .description{

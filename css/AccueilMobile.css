@@ -106,6 +106,16 @@
         text-align: center;      
     }
 
+    .descriptionP p{
+        margin-right: 8%;
+        font-size: 2cqw;
+        font-weight: bolder;
+    }
+
+    .descriptionP span{
+        color: #4BCBD4; 
+    }
+
     .description div p{
         margin: 0 10%;
 
