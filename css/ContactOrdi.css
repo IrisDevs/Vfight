@@ -293,10 +293,16 @@
         margin-right: auto;
         background-color: white;
         height: 5vh;
-        width: 70vw;
-        margin-bottom: 5%;
+        width: 85vw;
+        margin-bottom: 3%;
         border-radius: 20px;
+    }
 
+    .boite p{
+        font-family: QuickSandB;
+        color: #4BCBD4;
+        text-align: center;
+        font-size: 1.7cqw;        
     }
 
     .reseau{
