@@ -52,6 +52,14 @@
         font-size: 2cqw;
     }
 
+    .streamers h3{
+        font-family: QuickSandB;
+        color: #4BCBD4;
+        text-align: center;
+        font-size: 2cqw;
+    }
+
+
     .nav p{
         margin: 0 2%;
         font-size: 2cqw;
@@ -96,7 +104,7 @@
     }
 
     .streamers{
-        padding-top: 8%;
+        padding-top: 10%;
         background-color: #001319;
         color: lightblue;
         font-family: QuickSandB;

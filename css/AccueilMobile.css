@@ -132,7 +132,7 @@
     /* Recap de l'event + icone animé */
 
     .recap{
-        padding-top: 5%;
+        padding-top: 4%;
         background-color: #4BCBD4;
         display: flex;
         flex-wrap: wrap;

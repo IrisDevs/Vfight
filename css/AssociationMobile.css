@@ -152,17 +152,17 @@
     }
     
     #flecheG img{
-        max-width: 15vw;
+        max-width: 5vw;
     }
     
     #flecheD{
         position: relative;
-        right: 68%;
+        right: 81%;
         z-index: 1;
     }
     
     #flecheD img{
-        max-width: 15vw;
+        max-width: 5vw;
     }
     
     #Carroussel{
@@ -184,9 +184,13 @@
     }
 
     .diapo{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
         overflow: hidden;
+        padding-top: 5%;
+        padding-bottom: 10%;
     }
-
     /* Section contact */
 
     .contact{

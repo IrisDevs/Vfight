@@ -40,7 +40,7 @@
     }
 
     h1{
-        font-size: 2cqw;
+        font-size: 1.5cqw;
     }
 
     h1:hover{
@@ -69,7 +69,7 @@
  
     .nav{
         font-family: QuickSandB;
-        margin-left:30%;
+        margin-left: 45%;
         display: inline-flex;
         flex-direction: row;
         align-items: center;
@@ -78,7 +78,7 @@
     }
 
     .reseaux{
-        margin-left: 30%;
+        margin-left: 40%;
         display: inline-flex;
         flex-direction: row;
         align-items: center;
@@ -87,7 +87,7 @@
 
     .reseaux a{
         width: 100%;
-        height: 50%;
+        height: 60%;
         margin-right: 15%;
         border-radius: 50%;
         border-style: solid;
@@ -167,67 +167,73 @@
 
         /* Section des photo de l'association en mode carroussel */
 
-    #image1 img{
-        width: 101vw;
-        height: 80vh;
-    }
+        #image1 img{
+            width: 101vw;
+            height: 80vh;
+        }
+        
+        #image2 img{
+            width: 101vw;
+            height: 80vh;
+        }
+        
+        #image3 img{
+            width: 104vw;
+            height: 80vh;
+        }
+        
+        #flecheG{
+            position: relative;
+            left: 5%;
+            z-index: 1;
+            visibility: hidden;
+        }
+        
+        #flecheG img{
+            max-width: 5vw;
+        }
+        
+        #flecheD{
+            position: relative;
+            right: 81%;
+            z-index: 1;
+        }
+        
+        #flecheD img{
+            max-width: 5vw;
+        }
+        
+        #Carroussel{
+            margin-top: -2%;
+            margin-left: -15%;
+            padding-bottom: 4%;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            width: 351%;
+        }
     
-    #image2 img{
-        width: 101vw;
-        height: 80vh;
-    }
+        #photos{
+            margin-top: -2%;
+            transition: all 3s;
+            display: flex;
+            flex-wrap: nowrap;
+            width: 330%;
+        }
     
-    #image3 img{
-        width: 104vw;
-        height: 80vh;
-    }
-    
-    #flecheG{
-        position: relative;
-        left: 4%;
-        z-index: 1;
-        visibility: hidden;
-    }
-    
-    #flecheG img{
-        max-width: 5vw;
-    }
-    
-    #flecheD{
-        position: relative;
-        right: 70%;
-        z-index: 1;
-    }
-    
-    #flecheD img{
-        max-width: 5vw;
-    }
-    
-    #Carroussel{
-        margin-left: -6%;
-        padding-bottom: 4%;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        width: 330%;
-    }
-
-    #photos{
-        overflow: hidden;
-        transition: all 3s;
-        display: flex;
-        flex-wrap: nowrap;
-        width: 350%;
-    }
-
-    .diapo{
-        overflow: hidden;
-    }
+        .diapo{
+            padding-top: 5%;
+            padding-bottom: 10%;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            overflow: hidden;
+        }
 
     /* Section contact */
 
     .contact{
-        padding-top: 7%;
+        padding-top: 1%;
         margin-top: -10%;
         background-color: #001319;
         padding-bottom: 2%;
